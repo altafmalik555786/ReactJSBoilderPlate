@@ -9,7 +9,6 @@ function App() {
       <div className={style.app}>
         <LayOut />
       </div>
-      <h2>this is start of app</h2>
     </Router>
   );
 }
