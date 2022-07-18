@@ -1,23 +1,28 @@
 .menuWrapper {
 
-
   background-color: white;
 
-  body, div, p, h1, h2, h3, h4, h5, h6, img {
+  body,
+  div,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  img {
     padding: 0 !important;
     margin: 0 !important;
   }
 
   .topBarWrapper {
     border-bottom: 0;
-    padding-bottom: 20px ;
-    height: 93px !important;
-  }
-  .topBarWrapper:hover {
-    border-bottom: 4px solid green ;
+    padding-bottom: 20px;
+    height: 11vh !important;
   }
 
-  .Logo{
+  .Logo {
     font-size: 25px;
     display: flex;
     align-items: center;
@@ -26,17 +31,16 @@
     background-color: white;
     border-bottom: 7px solid green;
     border-left: 7px solid green;
-
     width: 70px;
     height: 70px;
-    position:absolute;
+    position: absolute;
     margin-top: 8px !important;
     margin-left: 40px !important;
     padding-left: 15px;
     padding-top: -5px;
     border-radius: 50%;
-
   }
+
   .Logo:hover {
     border-top: 4px solid green;
     border-bottom: 0;
@@ -47,6 +51,7 @@
     float: right;
     margin-right: 50px;
   }
+
   ul li {
     list-style: none;
     margin: 12px 10px;
@@ -54,34 +59,30 @@
     border-bottom: 2.5px solid green;
     border-radius: 25px !important;
     padding: 10px 25px;
-    transition: 0.05s ;
+    transition: 0.05s;
   }
+
   ul li:hover {
     border-bottom: 0 solid green !important;
     border-top: 2.5px solid green !important;
   }
-
 
   ul a {
     text-decoration: none;
     color: black;
     text-align: center !important;
   }
-  
+
   :global(.ant-menu-item) {
     padding-left: 25px !important;
   }
 
-  // :global(.ant-menu-title-content) {
-  //   padding-left: 10px;
-  // }
 
   :global(.anticon) {
     color: green;
     padding-right: 10px;
 
   }
-
 
   :global(.ant-menu-sub) {
     position: absolute;
@@ -91,27 +92,26 @@
     border: 1px solid black;
     max-width: 200px !important;
     background-color: black;
+
     li {
       color: white;
       margin: 0 0.5;
       text-align: left;
       min-width: 110px;
-      // border: 1px solid yellowgreen;
-      // border-radius: 0 !important;
       font-size: 15px;
       height: 15px;
-   }
-   li span {
-     display: inline;
+    }
 
-   }
-   li p{
-     display: inline;
-    
-   }
+    li span {
+      display: inline;
+
+    }
+
+    li p {
+      display: inline;
+
+    }
   }
 
 
 }
-
-
