@@ -53,8 +53,6 @@ function DashBoard() {
         </div>
       </Carousel>
     </div>
-
-
   </div>
 }
 
