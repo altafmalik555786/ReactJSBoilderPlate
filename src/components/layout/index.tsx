@@ -7,10 +7,10 @@ const DefaultLayout = observer(() => {
 
 
   return (
-    <>
-      <MenuBar />
-      <Routing />
-    </>
+    <div>
+      <MenuBar/>
+      <Routing/>
+    </div>
   );
 
 })
