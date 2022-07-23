@@ -1,4 +1,4 @@
-import { constRoute } from '../../utils/route'
+import { constRoute } from '../utils/route'
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import DashBoard from '@components/dashboard';
