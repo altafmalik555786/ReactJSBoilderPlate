@@ -25,26 +25,22 @@
     height: 50px;
     margin: auto !important;
  
+    
+
     .Logo {
-      font-size: 20px;
-      color: black;
-      text-decoration: none;
-      background-color: white;
-      border-bottom: 7px solid green;
-      border-left: 7px solid green;
-      width: 40px;
-      height: 40px;
-      position: absolute;
-      margin-left: 40px !important;
-      
-      padding-left: 15px;
-      padding-top: -5px;
+      border: 1px solid;
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
+      display: inline;
+      float: left;
+      margin-left: 20px;
     }
   
-    .Logo:hover {
-      border-top: 4px solid green;
-      border-bottom: 0;
+  
+
+  .menuBar {
+      margin-left: 200px;
     }
 
 

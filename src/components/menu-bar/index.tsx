@@ -22,7 +22,7 @@ function MenuBar() {
         <div className={style.menuMainWrapper} style={{ height: "10vh" }} >
             <div className={style.menuWrapper} >
                 <NavLink className={style.Logo} to={""}> Logo </NavLink>
-                <Menu mode='horizontal' items={itemsList} />
+                <Menu className={style.menuBar} mode='horizontal' items={itemsList} />
             </div>
         </div>
     )
